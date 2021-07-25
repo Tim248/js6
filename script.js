@@ -1,9 +1,9 @@
-let UserName = prompt('Введите свое имя ')
-let UserBirthYear = +prompt('Введите год рождения ')
-let CurrentYear = +prompt('Введите нынешний год ')
+let userName = prompt('Введите свое имя ')
+let userBirthYear = +prompt('Введите год рождения ')
+let currentYear = +prompt('Введите нынешний год ')
 
-function UserInfo(CurrentYear, UserBirthYear) {
-    let Age = CurrentYear -  UserBirthYear;
-    return Age
+function userInfo(currentYear, userBirthYear) {
+    let age = currentYear -  userBirthYear;
+    return age
 }
-alert(UserName + ', ' + ' Ваш возраст ' + UserInfo(CurrentYear, UserBirthYear))
+alert(userName + ', ' + ' Ваш возраст ' + userInfo(currentYear, userBirthYear))
